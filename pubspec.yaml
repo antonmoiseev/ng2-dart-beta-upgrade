@@ -1,0 +1,9 @@
+name: ng2_dart_upgrade
+
+dependencies:
+  angular2: 2.0.0-alpha.35
+  browser: any
+
+transformers:
+- angular2:
+    entry_points: web/main.dart
